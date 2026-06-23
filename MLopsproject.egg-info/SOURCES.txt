@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+MLopsproject.egg-info/PKG-INFO
+MLopsproject.egg-info/SOURCES.txt
+MLopsproject.egg-info/dependency_links.txt
+MLopsproject.egg-info/requires.txt
+MLopsproject.egg-info/top_level.txt

@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: MLopsproject
+Version: 0.1.0
+Summary: CI/CD implementation and push into github
+Requires-Python: >=3.10
+Requires-Dist: azure.identity
+Requires-Dist: python-dotenv
+Requires-Dist: streamlit
+Requires-Dist: azure-ai-ml
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: uvicorn
+Requires-Dist: joblib
+Provides-Extra: nlp
+Requires-Dist: nltk>=3.9; extra == "nlp"
+Requires-Dist: gensim>=4.3; extra == "nlp"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.2; extra == "dev"
+Requires-Dist: black>=24.4; extra == "dev"
+Requires-Dist: ruff>=0.4; extra == "dev"
+Requires-Dist: mypy>=1.10; extra == "dev"
